@@ -1,15 +1,54 @@
 [[situational-awareness_detail]]
 === Situational Awareness
 
-So I work for the Army Geospatial Center and we've been. Looking.at
+Army Geospatial Center is looking at simplified situational awareness.
 
-So I haven't attended this group before. So I'm a little bit new to this, this group. But one of the cases that we're really looking at is kind of a concept of simplified situational awareness.
+We have very complex data models and and sometimes those are a challenge to get down to user levels, POIs can be useful for basic situational awareness and basic positional validation, so that a user can regularly see if there physical location and  surroundings align with what they see on the map. 
+A Point of Interest (POI) can be described in a variety of ways, for this military situation awareness use case, POIs are a simplified set of point features that the user community needs visually represented with options to search, filter, and view labels and attributes. POIs are derived from a more complex geospatial data model and simplified to better enable systems with limited geospatial capabilities. While traditional feature data carries attributes that are often null or contain a “no information” value, POIs should only carry the most relevant and well populated information. In addition to traditional attributes POI contains 3 pre-calculate fields that can simplify symbolizing, searching, filtering, and categorizing POIs. POIs will be user community dependent, with different levels of detail so there may be a macro level view of an airport and a more detailed view where airport has parking, runways, helopads; these levels often need to have a relationship with scale.
+List of POIs
+airport_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/cc6b1767542a9bf8ea890884d5d14e17/raw/b46d0251e2d2d0b9f1050243f24bffcf702da128/airport_poi_clr.svg
+bank_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/a1c82dbad4d89538982e8636feec2b05/raw/7ba0394b6ee8e216ec2ef1c99c4756fd39ce7045/bank_poi_clr.svg
+bridge_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/449bb766470643cfa87dbd24e2a8a408/raw/f7387b6c78fdd4e3702e01f7bb7dda64e48df4e2/bridge_poi_clr.svg
+cemetery_buddhist_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/66897330c37f679f89e8140096a32287/raw/b12b2907b3d958d71a4b6fa60a72b13137158fb6/cemetery_buddhist_poi_clr.svg
+cemetery_christian_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/69421dc4d7d6116fde912ee3bbd5ba23/raw/f05688229256628c16057b85263f888378407902/cemetery_christian_poi_clr.svg
+cemetery_general_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/dbfe283937fbd054c99a19fb2980fee8/raw/7a3195d7544d59ddd2b497750cdc0dac918b50ad/cemetery_general_poi_clr.svg
+cemetery_islamic_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/45f5890f8ae29d6f0258b737f546985f/raw/4f27d75627385dd8a7dd84432adb1bd38c8320fe/cemetery_islamic_poi_clr.svg
+cemetery_jewish_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/eb3e05a53bcab997e5dab09ee8e3ef2e/raw/e64ce9768444b51fe80752187fc9c0330c7bba0b/cemetery_jewish_poi_clr.svg
+communications_tower_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/e3b78c66a824a52f2ee700af6ac3b507/raw/5ef874c0176d2db76a7536901dd0047df29be39b/communications_tower_poi_clr.svg
+control_tower_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/e4c6ff45ebdbb0ba1ca6708566b44ec2/raw/62fda7d4a6e1ccb118080a58d62deaebd32b1463/control_tower_poi_clr.svg
+dam_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/d29c38227095a28f88c361ab0e755f32/raw/5f0c4ffc4e100b3bf4d8eb46220f7a9473a6fbc7/dam_poi_clr.svg
+embassy_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/3694310e01576ca555105754e207fdbd/raw/8d211f92ce8f21902d562fb17e859cc982533573/embassy_poi_clr.svg
+fire_dept_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/ba5a1ec5444046918478a14f673a7a6b/raw/f98781b22b762ec6e439c1b449dbafee8352404a/fire_dept_poi_clr.svg
+fuel_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/01a98d57f415f47e8db4de4ea94ae759/raw/513523f571a344628843bd6b1ac1dfad7fa9ba55/fuel_poi_clr.svg
+general_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/f17c1a8aa1fdc4683a43814c17eaa07f/raw/ad0bf7b91da43dadac23a619fec4e8a444464e4c/general_poi_clr.svg
+helipad_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/7183ac0d59705ce30beea419490d49c4/raw/c05ab5ebbc6337199f2174b34068f4498c29ae33/helipad_poi_clr.svg
+historic_site_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/9cc4235f52c122bdbbfadaf9cf8c1549/raw/97168aff9161b3d23ede8e422dd417c29b218e3b/historic_site_poi_clr.svg
+hospital_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/d6c210ac48a61328ee0dfa1eaee258f1/raw/60670204b79ed72cc2e7e38ed74ff1342b16cb9c/hospital_poi_clr.svg
+hotel_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/6d905b04135b0528eae19d388672278f/raw/d36b003daf989a724e7e23fa8b23ce17f235bbbe/hotel_poi_clr.svg
+market_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/438013004ca8feaea8c4e0f6b0df0bcd/raw/1eb84d0f760d3e0df6592fe48dabcee9b362ab69/market_poi_clr.svg
+monument_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/a53e16e24dff2bd3be2c7bbfce2c5c7d/raw/5389651428bd11cc44c23be8af2dcb28251dd2b3/monument_poi_clr.svg
+park_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/4710540e5b72e0134c99bc60b0c11790/raw/a904f050288d92dee060fcf849513190bbcf7a7a/park_poi_clr.svg
+police_station_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/ed3ca0cd43d0d8bd86abd789ef4e4ae3/raw/cda1f8cf5fd1b0c6f905e797a62c10a6d4e032fb/police_station_poi_clr.svg
+post_office_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/c891d3c01ec4bc555afb96468990227e/raw/c1f6a5ae2221d86e650a57371a0200d910105005/post_office_poi_clr.svg
+power_general_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/d8f85dd08367724680e3dd9acadb7346/raw/c7891730ac5239c9ca87b917b5ad5d7f2e87fac7/power_general_poi_clr.svg
+power_plant_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/0e049925fa1c0f6daf6a09373d47c893/raw/ddb992b585424fafedba2253594d4174518ef8ed/power_plant_poi_clr.svg
+power_substation_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/b90c34f87cd760f45b02c0ca7968e0e0/raw/3435412526897cc0a1451dcd832d7045b5d13380/power_substation_poi_clr.svg
+prison_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/410ff88e4be1d955fac5cf5269434e69/raw/758f4836209c4738bdbfc0bfb88a7055ab83bb26/prison_poi_clr.svg
+refugee_camp_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/a536f0d1715fe9886416b97e97998385/raw/dcb21e40ef7169e82afc2b0fd493c8df20e34a0c/refugee_camp_poi_clr.svg
+ruin_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/8f13f01901e4d2ba5a3e90d3946643a5/raw/25f9ea9a6652ce3715e0e9c9513de55d6ecbc1c8/ruin_poi_clr.svg
+school_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/fd6172dfd0ab0449a49b0930544cc783/raw/27c34b3d4619b6756a9c2b998dc41071100c8a19/school_poi_clr.svg
+sewage_treatment_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/68230b863b2070db8f08b5fde925d766/raw/a31a7449e94b5197161f031e31e075c22374667d/sewage_treatment_poi_clr.svg
+shrine_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/cd53a0d36c1b27d556bb514bbe252d82/raw/2b2b7a98ea6c4f6c9a43cc9d6c583d759755a125/shrine_poi_clr.svg
+sports_ground_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/e9bc646e34775f8a32626adedad95d42/raw/6e88b26228f70629b08c0bf22f7e5205c30d76a2/sports_ground_poi_clr.svg
+stadium_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/5dec3b4c40cb3423cf66fde89334dcef/raw/7d63c898c2b205c2492246ab6aa6167010320cfb/stadium_poi_clr.svg
+tomb_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/b59f88f19537809f90dd4ff3d0a603d9/raw/0db8a0baf81b1b2c0c75abfe2acb3eb1dbaf7c03/tomb_poi_clr.svg
+water_tower_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/4790d90273339b38f96c2cd24dfc284b/raw/fc1e7cfbefefeaf0fc02d54df62be7d8a9163ea1/water_tower_poi_clr.svg
+water_utility_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/8cca219789d74db94c70091afea741a1/raw/14874109075a9df57b18215a6c899aaad3a29a47/water_utility_poi_clr.svg
+wrshp_buddhist_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/b138c1af278e5a0af364e5714ca4372f/raw/91fdb48fad87f3e7fc3f8be7a5f562bab530b805/wrshp_buddhist_poi_clr.svg
+wrshp_christian_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/6e8dad52860dbeabaad741a573fdaad6/raw/6c64dfd118a35c8ca507a2a1f644b1854dd3402e/wrshp_christian_poi_clr.svg
+wrshp_general_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/5f5c2f4533d2936e219c6e1bceaa28e7/raw/18f340ce07155e7a0bb4dac72b2b03bc83a3b0f0/wrshp_general_poi_clr.svg
+wrshp_islamic_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/9e2e8bd90533b4201e9ef1c65f9eb48f/raw/64832e6b368f5f3e81d5a64f64cb514429795603/wrshp_islamic_poi_clr.svg
+wrshp_jewish_poi_clr.svg	https://raw.githubusercontent.com/gist/JLK42/edcf70fed06c372c6d1fde10b6429417/raw/3275e814d9f59cb6ff683e375e57ad944ef00916/wrshp_jewish_poi_clr.svg
 
-We have very complex data models and and sometimes those are a challenge to get down to user levels. And some of the use cases that they really need this for is concepts of positional validation. So that's not to say, like, specifically, I am here, But rather, I think I'm here. What's around me? Um, and, and also, looking at it from the other side of being data collection. So what are the things a community needs to need to collect, and those, in turn, become POIs? Ok, that's that's a really great question.
 
-So one of the things that happens with that is you end up with a lot of POIs. But I think going back to the earlier question.
-
-How are you how you interact with these things or how you end up with what things are ...? They could be most anything.
-
-It's going to be dependent on it on a user community. But I think there's also a level, and I know level of detail is a loaded concept, but in terms of, if you're looking at something from kind of the macro level, you might be looking at an entire power grid.
 
